@@ -18,7 +18,7 @@ A simple blog for test purpose. Based on Laravel
 ## Installation
 
 ```
-git clone https://github.com/hendrik49/laravel-test-fullstack.git blog
+git clone https://github.com/hendrik49/laravel-test-fullstack.git
 cd laravel-test-fullstack
 composer install
 cp .env.example .env
