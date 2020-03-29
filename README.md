@@ -27,7 +27,6 @@ php artisan migrate
 php artisan db:seed
 ```
 
-
 ## Author
 
 - [Hendrik](drikdoank@gmail.com)
