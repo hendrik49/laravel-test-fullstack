@@ -1,6 +1,6 @@
-# Laravel Blog
+# Laravel Blog Test
 
-A simple blog for demonstration purpose. Based on Laravel 5.8
+A simple blog for test purpose. Based on Laravel
 
 ## Requirements
 
