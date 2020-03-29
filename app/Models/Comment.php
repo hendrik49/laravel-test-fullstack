@@ -21,21 +21,12 @@ class Comment extends Model
      * @var array
      */
     protected $fillable = [
-      'user_id',
       'post_id',
       'name',
       'email',
       'website',
       'comment',
     ];
-
-    /**
-     * Return the comment's user
-     */
-    public function user(): BelongsTo
-    {
-        return $this->belongsTo(User::class, 'user_id');
-    }
 
     /**
      * Return the comment's post

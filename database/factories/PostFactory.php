@@ -9,7 +9,7 @@ $factory->define(Post::class, function (Generator $faker) {
 
     return [
         'title' => $title,
-        'content' => $faker->paragraph,
+        'content' => $faker->paragraph(30),
         'slug' =>  Str::slug($title, '-'),
         'user_id' => function () {
             return factory(User::class)->create()->id;
